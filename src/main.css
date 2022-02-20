@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: #111;
+}
+
+body .container {
+  background: -webkit-gradient(linear, left top, left bottom, from(#192e4b), to(#447c7d));
+  background: linear-gradient(#192e4b, #447c7d);
+  width: 95vw;
+  max-width: 481px;
+  padding: 2rem;
+  border-radius: 0.25rem;
+}
+
+body .avatar {
+  width: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body h3,
+body h5 {
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+body article.links-block {
+  margin-top: 1rem;
+}
+
+body article.links-block div.links .link {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: #192e4b;
+  background: white;
+  margin: 1.75rem 0;
+  padding: 0.5rem;
+  font-weight: bold;
+  outline: 2px solid whitesmoke;
+  outline-offset: 4px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+body article.links-block div.links .link:hover {
+  background: transparent;
+  color: white;
+}
+
+body article.links-block div.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body article.links-block div.social-links .social-link {
+  font-size: 1.75rem;
+  color: whitesmoke;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+body article.links-block div.social-links .social-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
